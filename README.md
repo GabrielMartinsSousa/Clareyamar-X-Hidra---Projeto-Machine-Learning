@@ -9,7 +9,7 @@
 
 ## Resumo do Projeto
 
-<b>*Após escapar das profundezas do oceano, a Divisão Clareyamar foi perseguida pela Hydra de Lumi, enviada por Netuno, desde a fuga dos heróis da Sociedade Aurora. Assim, este monstro passou a contaminar as águas do Reino de Lumi e sua população, sendo responsabilidade de Clareyamar combater o dragão do mar.*</b>
+<b>*Após escapar das profundezas do oceano, a Divisão Clareyamar foi perseguida pela Hidra de Lumi, enviada por Netuno, desde a fuga dos heróis da Sociedade Aurora. Assim, este monstro passou a contaminar as águas do Reino de Lumi e sua população, sendo responsabilidade de Clareyamar combater o dragão do mar.*</b>
 
 Este é um projeto de aprendizado de máquina para a matéria de Aprendizado de Máquina, do curso de Bacharelado em Ciência e Tecnologia da Ilum Escola de Ciência. O trabalho consiste em desenvolver e treinar modelos de machine learning desenvolvidos em Python para, a partir de dados coletados no dataset <b>*Water Quality*</b> obtido na plataforma Kaggle, prever os valores de dureza da água a partir de alguns atributos.
 
