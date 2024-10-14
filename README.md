@@ -97,4 +97,29 @@ Neste trablalho, implementamos o `LassoCV()` do `scikit-learn`, que utiliza vali
 
 * Árvore de decisão:
 
+O modelo de Àrvore de Decisão apresenta um grafo direcional acíclico na qual seus vértices apresentam condições que representam alguma característica dos dados analisados. Inicialmente, o grafo começa pelo vértice raiz, a qual duas setas saem e nenhuma chega, caso o critério seja cumprido, segue-se no grafo pela esquerda, se não, segue-se pela direita. Após o vértice raiz, temos vértices de decisão, na qual uma seta chega e duas saem. Ao longo desse trajeto, a porcentagem de dados que seguem aqueles parâmetros tende a diminuir até o suficiente para a previsão probabilística. Esse vértice final é chamado de vértice folha, na qual uma seta chega e nenhuma sai, e apresenta um valor de previsão final.
 
+## Resultados
+
+Ao final do projeto, obtivemos com sucesso os 4 modelos almejados inicialmente, realizamos as métricas para avaliar o desempenho destes, e conseguimos valores não muito satisfatórios, próximos a 34 mg/L, considerando a magnitude dos dados, que estão em um intervalo entre cerca de 73 e 317. Além disso, pelos resultados dos gráficos, há bastante divergência entre os valores previstos e os valores de teste conhecidos.
+
+## Acesso ao projeto
+
+O caderno com os códigos em Python estão presentes nesta documentação, e contém toda a descrição dos processos desenvolvidos e de como funcionam os modelos e as métricas. O link para o download do dataset está disponível [aqui](https://www.kaggle.com/datasets/adityakadiwal/water-potability/data)
+
+## Agradecimentos
+
+Nossos agradecimentos se estendem ao nosso professor e orientador Doutor Daniel Roberto Cassar, responsável por nos ensinar de maneira clara os métodos e modelos aqui utilizados, além de disponibilizar material de aula para nos basearmos ao longo do desenvolvimento do trabalho.
+
+## Desenvolvedores
+[<img src="https://avatars.githubusercontent.com/u/172425313?v=4" width=115>](https://github.com/GabrielMartinsSousa) <img src="https://github.com/user-attachments/assets/28fd049c-d60b-4c86-b7b6-2d794dea3fdf" alt="Texto Alternativo" width="115">
+
+*Gabriel Martins Sousa* como *Haryell Marino*
+
+[<img src="https://avatars.githubusercontent.com/u/172424981?v=4" width=115>](https://github.com/ClaraLelis) <img src="https://github.com/user-attachments/assets/6cc61d25-b6fb-4cd1-a724-26d55bab1fac" alt="Texto Alternativo" width="115">
+
+*Maria Clara Macedo Lelis* como *Olive Solace*
+
+[<img src="https://avatars.githubusercontent.com/u/171518829?v=4" width=115>](https://github.com/yasminbshimizu) <img src="https://github.com/user-attachments/assets/f79e5706-9497-4185-b489-2972365729d0" alt="Texto Alternativo" width="115">
+
+*Yasmin Barbosa Shimizu* como *Ebony Vitrum*
