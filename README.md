@@ -1,5 +1,7 @@
 <h1 align='center'> Clareyamar X Hidra - Projeto Machine Learning </h1>
-<h3 align='center'> Desenvolvemos um projeto para prever a dureza da água, através de um dataset com diversas informações sobre águas.</h3>
+<h3 align="center"><i>Inluminans Ignotus</i></h3>
+
+<h3 align='center'> Desenvolvemos um projeto para prever a dureza da água, através de um dataset com diversas informações sobre águas.</h4>
 
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
