@@ -23,7 +23,8 @@ Este é um projeto de aprendizado de máquina para a matéria de Aprendizado de 
 * [Data Set](#data-set)
 * [Modelos Preditivos](#modelos-preditivos)
 * [Resultados](#resultados)
-* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Murais de Quests](#murais-de-quests)
+* [Acesso aos Projetos](#acesso-aos-projetos)
 * [Agradecimentos](#agradecimentos)
 * [Desenvolvedores](#desenvolvedores)
 <br>
@@ -109,9 +110,31 @@ O modelo de Àrvore de Decisão apresenta um grafo direcional acíclico na qual 
 
 Ao final do projeto, obtivemos com sucesso os 4 modelos almejados inicialmente, realizamos as métricas para avaliar o desempenho destes, e conseguimos valores não muito satisfatórios, próximos a 34 mg/L, considerando a magnitude dos dados, que estão em um intervalo entre cerca de 73 e 317. Além disso, pelos resultados dos gráficos, há bastante divergência entre os valores previstos e os valores de teste conhecidos.
 
-## Acesso ao projeto
+## Murais de Quests
 
-O caderno com os códigos em Python estão presentes nesta documentação, e contém toda a descrição dos processos desenvolvidos e de como funcionam os modelos e as métricas. O link para o download do dataset está disponível [aqui](https://www.kaggle.com/datasets/adityakadiwal/water-potability/data)
+Os Murais de Quests consistem em atividades mensais realizadas ao longo da disciplina, visando consolidar o conteúdo abordado e embasar as ferramentas a serem utilizadas no projeto final. As quests realizadas pelos desenvolvedores desse projeto abordam tratamento de dados, modelos preditivos, funcionamento de módulos de Python e outros algoritmos de aprendizado de máquina. Damos um destaque especial ao Mural de Quests 2, o qual foi utilizado como base principal no desenvolvimento do projeto final.
+
+* Mural de Quests 1: Taverna do Sol
+
+Nos seus primeiros dias em Lumi, a divisão Clareyamar visitou a Taverna do Sol, buscando possíveis informações sobre o despertar de seus poderes de luz e a localização do deus Pheabus. Assim, o grupo descobre a cultura dos Murais de Quests e decidem ajudar a população local com seus pedidos, visando conhecer melhor a região, os seus habitantes e adquirir mais informações para sua missão principal de libertação da Aurora de Netuno.
+
+As atividades realizadas nesta quest são: Dados 1 - Familizarizando-se com datasets didáticos, que consiste num estudo dos datasets didáticos "Titanic", "Geyser" e "Penguins" do módulo `Seaborn`; e Dados 3 - Ordinal ou One-Hot?, que consiste em realizar uma conversão de dados classificatórios de exercícios físicos em dados numéricos, utilizando o dataset didático "Exercise" do `Seaborn` e o codificador ordinal do `Scikin-learn`.
+
+* Mural de Quests 2: Praça da Fonte
+
+Em sua saga para conhecer melhor o Reino de Lumi, a divisão Clareyamar decide desbravar Praça da Fonte para analisar as águas consumidas pela população. Chegando ao seu destino, encontram um novo mural de quests e resolvem embarcar mais uma vez numa aventura em busca de ajudar os cidadãos nescessitados.
+
+As atividades realizadas nesta quest são: Módulos 1 - Iterações... Iterações em todos os lugares, que consiste em explorar cinco funções do módulo `Itertools`; Modelos 1 - Não perca a classe!, que consiste em alterar um modelo regressor k-NN para um modelo classificador k-NN, estudando também as diferenças entre distância euclidiana e distância Manhattan, com previsões de dados de penguins do `Seaborn`; e Modelos 3 - Uma terça-feira qualquer, que consiste em um estudo de regressores lineares, mais especificamente do regressor Lasso em comparação ao regressor linear simples por quadrados mínimos.  
+
+* Mural de Quests 3: Biblioteca Real
+
+Após realizar as missões dos murais da Taverna do Sol e da Praça da Fonte e deixar seus relatórios nas mãos da Dra. Diana Didatolov, a Divisão Clareyamar ganhou muito mais reconhecimento e prestígio no reino. Com as missões anteriores concluídas, a Diretora da Biblioteca Real revelou ao grupo mais um mural que contém quests de nível mais elevado , solicitando ajuda a eles. A fim de continuar ajudando o povo e conquistar a Legião da Alvorada, o grupo aceitou e se propôs, novamente, a resolver problemas de diversos cidadãos de Lumi. Além disso, há relatos de que as águas locais estão contaminadas, e sábios marinheiros afirmaram avistar um terrível dragão do mar na região. Conhecendo esses rumores, como divisão responsável pelos recursos hídricos, o grupo decidiu se preparar para estudar o que está acontecendo no Reino de Lumi.     
+
+As atividades realizadas nesta quest são: Modelos 4 - As hipóteses reais, que consiste no teste de duas hipóteses acerca modelos preditivos por regressão, comparando o desempenho de modelos lineares Lasso com e sem normalização de dados, e modelos k-NN e árvore de decisão sem e com otimização de hiperparâmetros; e Modelos 6 - Tentando algo diferente, que consiste num estudo acerca de máquinas de vetores de suporte, mais especificamente utilizadas para classificação e previsão da potabilidade de corpos 'água com dados do dataset "Water Quality" da plataforma `Kaggle`.
+
+## Acesso aos projetos
+
+Os cadernos com os códigos em Python estão presentes nesta documentação, e contém toda a descrição dos processos desenvolvidos e de como funcionam os modelos e as métricas. O link para o download do dataset está disponível [aqui](https://www.kaggle.com/datasets/adityakadiwal/water-potability/data)
 
 ## Agradecimentos
 
