@@ -71,6 +71,10 @@ O link para a página do dataset no Kaggle se encontra [aqui](https://www.kaggle
 
 Neste trabalho,foram utilzados quatro modelos preditivos: regressor k-NN, regressor linear por mínimos quadrados, regressor linear lasso e árvore de decisão. Para a aplicação, foi feita uma divisão do *dataset* em treino e teste com o `split_train_test()` e a busca pelos melhores hiperparâmetros com o `GridSearchCV()`, ambas implementadas do `scikit-learn`.
 
+* Modelo Baseline:
+
+Primeiramente, a fim de comparar o desempenho dos demais modelos treinados, utilizamos o modelo preditivo baseline - modelo linear em que o coeficiente angular é nulo, de modo que a reta encontrada seja constante. Assim, utiliza-se apenas os *targets* de treino, calculando a média ou valor esperado destes para encontrar o valor do intercepto.
+
 * Regressor k-NN:
 
 O regressor k-NN ou k-Vizinhos mais próximos é um algoritmo de aprendizado de máquina que se baseia na premissa de que dados semelhantes representam pontos próximos no espaço dos atributos. O funcionamento deste regressor é relativamente simples, o modelo é descrito pelas coordenadas dos dados de treino e pelo target associado a cada uma. Para realizar uma previsão o algoritmo recebe um conjunto de atributos X e calcula a distância entre o exemplo dado e os valores conhecidos, selecionando os k vizinhos mais próximos e calculando a média dos seus respectivos targets, o valor obtido é o resultado da previsão.  
